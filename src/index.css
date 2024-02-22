@@ -4,11 +4,11 @@
 
 
 .game {
-    background-color: green;
+    background-color: tomato;
 }
 .movie {
-    background-color: orange;
+    background-color: #2fbd87;
 }
 .series {
-    background-color: teal;
+    background-color: rgb(35, 119, 188);
 }

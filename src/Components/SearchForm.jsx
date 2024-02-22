@@ -10,7 +10,11 @@ const SearchForm = (props) => {
 
   async function getData() {
     let data = await axios.get(`${searchAPI}${currentValue}`);
-    props.setCurrentSelection(data.data.Search);
+    {
+      data.data.Error
+        ? props.setHasError(true)
+        : props.setCurrentSelection(data.data.Search);
+    }
   }
 
   function handleAPIRequest(e) {

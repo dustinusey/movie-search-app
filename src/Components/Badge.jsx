@@ -1,7 +1,6 @@
 import { Clapperboard, FileStack, Gamepad2 } from "lucide-react";
 
 const Badge = (props) => {
-  console.log(props);
   const badgeType =
     props.type === "movie"
       ? "movie"
