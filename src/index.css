@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.game {
+    background-color: green;
+}
+.movie {
+    background-color: orange;
+}
+.series {
+    background-color: teal;
+}
